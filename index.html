@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poziomy rzek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img src="obraz1.png" alt="Mapa Polski">
+        </div>
+        <div class="banner">
+            <h1>Rzeki w województwie dolnośląskim</h1>
+        </div>
+    </header>
+    
+    <nav>
+        <form method="post" action="">
+            <label><input type="radio" name="option" value="all"> Wszystkie</label>
+            <label><input type="radio" name="option" value="above_warning"> Ponad stan ostrzegawczy</label>
+            <label><input type="radio" name="option" value="above_alarm"> Ponad stan alarmowy</label>
+            <button type="submit">Pokaż</button>
+        </form>
+    </nav>
+    
+    <main>
+        <section class="left-block">
+            <h3>Stany na dzień 2022 - 05 - 05</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Wodomierz</th>
+                        <th>Rzeka</th>
+                        <th>Ostrzegawczy</th>
+                        <th>Alarmowy</th>
+                        <th>Aktualny</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Tutaj będą wiersze z danymi -->
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="right-block">
+            <h3>Informacje</h3>
+            <ul>
+                <li>Brak ostrzeżeń o burzach z gradem</li>
+                <li>Smog w mieście Wrocław</li>
+                <li>Silny wiatr w Karkonoszach</li>
+            </ul>
+            <h3>Średnie stany wód</h3>
+            <p></p>
+            <a href="https://komunikaty.pl">Dowiedz się więcej</a>
+            <img src="obraz2.jpg" alt="rzeka">
+        </section>
+    </main>
+    
+    <footer>
+        <p>Stronę wykonał: SIGMA JAKUB</p>
+    </footer>
+</body>
+</html>

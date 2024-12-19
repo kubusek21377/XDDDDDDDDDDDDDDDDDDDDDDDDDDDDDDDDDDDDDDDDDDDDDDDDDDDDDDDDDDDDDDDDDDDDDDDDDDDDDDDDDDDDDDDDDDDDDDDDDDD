@@ -1,0 +1,64 @@
+body {
+    font-family: Georgia, serif;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+
+.banner {
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: navy;
+    padding: 20px;
+}
+
+nav label {
+    color: silver;
+    margin: 0 50px;
+}
+
+nav input[type="radio"]:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+}
+
+.left-block {
+    background-color: azure;
+    width: 70%;
+    height: 550px;
+}
+
+.right-block {
+    background-color: azure;
+    width: 30%;
+    height: 550px;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    width: 70%;
+    border: 1px solid navy;
+    margin: 0 auto;
+}
+
+table th, table td {
+    border: 1px solid navy;
+    padding: 20px;
+}
